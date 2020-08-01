@@ -1,6 +1,9 @@
 
 import React from 'react'
 import styles from './maintwo.less'
+import Carousel from 'nuka-carousel';
+import Img2 from '../imgs/bg11.jpg'
+import Img3 from '../imgs/bg111.jpg'
 
 export default () => {
     return (
@@ -63,7 +66,21 @@ export default () => {
                     <span className={styles.btn2}></span>
                 </div>
                 <div className={styles.lunbo2}>
-
+                    <Carousel>
+                        <div>
+                            <img src={Img2} alt=""/>
+                            <img src={Img2} alt=""/>
+                            <img src={Img2} alt=""/>
+                        </div>
+                        <div>
+                            <img src={Img3} />
+                            <img src={Img2} alt=""/>
+                            <img src={Img2} alt=""/>
+                        </div>
+                        <div>
+                            <img src={Img3} />
+                        </div>
+                    </Carousel>
                 </div>
             </div>
         </div>

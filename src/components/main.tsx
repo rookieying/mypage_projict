@@ -11,13 +11,13 @@ export default () => {
                 <h2>
                     为什么选择我们？
                     </h2>
-                    <div className={styles.right}>
-            <Carousel>
-              <img src={Img3} />
-              <img src={Img2} />
-              <img src={Img3} />
-            </Carousel>
-          </div>
+                <div className={styles.right}>
+                    <Carousel>
+                        <img src={Img3} />
+                        <img src={Img2} />
+                        <img src={Img3} />
+                    </Carousel>
+                </div>
                 <p>
                     <strong>您可以借助Elektron获得竞争优势。获得各种实时、参考、日终、时间序列和替代数据，以及强大的分析解决方案。此外，还可以挖掘包括股票、FICC和场外衍生品业务员在内的深度数据覆盖。这些数据可与您的专有数据和源自第三方的优质信息集成。</strong>
                         您需要的数据经过传送、整理、标记和标准化处理，可以轻松发现其中的关联、关系和联系，从而帮助您发现新机会。这些数据通过数据流馈送，经由云上或者托管数据管理服务，直接到达您的电脑或应用程序。
