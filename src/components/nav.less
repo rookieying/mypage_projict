@@ -1,0 +1,38 @@
+.nav {
+   width: 25px;
+   position: fixed;
+   z-index: 99;
+   right: 0px;
+   top:  42%;
+   margin-right: 30px;
+   a {
+        display: block;
+        width: 25px;
+        height: 25px;
+        background-color: rgb(128, 128, 128);
+        border-radius: 50%;
+        margin-bottom: 20px;
+    }
+    a:hover {
+        background-color: #1cbdc1;
+        
+        
+    }
+    span {
+        display: block;
+        width: 100px;
+        height: 30px;
+        line-height: 30px;
+        color: rgb(177, 169, 169);
+        box-sizing: border-box;
+        float: left;   
+        margin: -3px 0px 0px -120px;
+        text-align: center;
+        // display: none;
+    }
+}
+.clearficx::after {
+    content: "";
+    display: block;
+    clear: both;
+}
