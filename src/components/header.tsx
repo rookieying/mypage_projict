@@ -13,15 +13,15 @@ export default () => {
             <header id="header">
                 <div className={styles.mainnav}>
                     <div className={styles.left}>
-                        <div></div>
+                        <div>UNISPACE</div>
                     </div>
                     <div className={styles.right}>
-                        <a href="">主页</a>
+                        <Link to='/homepage'><span>主页</span></Link>
                         <Link to='/main'><span>工作领域</span></Link>
                         <Link to='/maintwo'><span>金融数据</span></Link>
                         <Link to='/contact'><span>支持与培训</span></Link>
-                        <Link to='/last'><span>Elektron数据平台</span></Link>
-                        <Link to='/indexpage'><span>关于我们</span></Link>
+                        <Link to='/maintwo'><span>Unispace数据平台</span></Link>
+                        <Link to='/homepage'><span>关于我们</span></Link>
                     </div>
                 </div>
             </header>

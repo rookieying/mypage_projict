@@ -1,47 +1,62 @@
+.indexpagebg {
+    padding-top: 123px;
+    overflow: hidden;
+    background-image: url('../imgs/z.jpg');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+    .indexpagecenter {
+        background-color: rgba(19, 27, 102, .8);
+        
+    }
+}
 .indexpage {
     flex: 4 1 0;
-    margin-top: 117px;
+    
     position: relative;
     z-index: 2;
-    padding: 175px 0px 175px 0px;
+    padding: 175px 0px 100px 0px;
     width: 100%;
+    
     .content {
         color: #fff;
         max-width: 1200px;
         margin: auto 0px;
         padding: 50px 50px 50px 120px;
         h1 {
-            color:#1CBDC1;
-            font-size: 50px;
+            color: #fff;
+            font-size: 70px;
             width: 80%;
             margin: 0px;
         }
         h3 {
-            font-size:24px; 
-            color:#dedede;
+            font-size:50px; 
+            color:#fff;
             width: 80%;
             margin: 30px 0px 0px 0px;
         }
         p {
-            font-size: 20px;
+            font-size: 30px;
             margin: 30px 0px 30px 0px;
         }
         div {
-            width: 150px;
-            padding: 12.5px 20px;
-            line-height: 15px;
+            width: 200px;
+            padding: 20px 20px;
+            line-height: 20px;
             background-color: rgb(28, 189, 193);
+            font-size: 25px;
             span {
-                padding: 6px;
-                
+                padding: 10px;
                 background-image: url("../imgs/enter.png");
-                background-size: 130%;
+                background-size: 120%;
                 background-repeat: no-repeat;
                 background-position: center;
-                margin-left: 10px;
+                margin-left: 40px;
             }
             &:hover {
                 cursor: pointer;
+                background-color: rgba(28, 189, 193, .4);
             }
         }
     }

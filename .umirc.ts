@@ -6,10 +6,11 @@ export default defineConfig({
   },
   routes: [
     { path: '/', component: '@/pages/index' },
-    { exact: true, path: '/main', component: '@/components/main' },
-    { exact: true, path: '/contact', component: '@/components/contact' },
-    { exact: true, path: '/maintwo', component: '@/components/maintwo' },
-    { exact: true, path: '/last', component: '@/components/last' },
-    { exact: true, path: '/indexpage', component: '@/components/indexpage' }
+    { exact: true, path: '/homepage', component: '@/components/homepage' },
+    { exact: true, path: '/main', component: '@/pages/mainpage' },
+    { exact: true, path: '/contact', component: '@/pages/contactpage' },
+    { exact: true, path: '/maintwo', component: '@/pages/maintwopage' },
+    { exact: true, path: '/last', component: '@/pages/lastpage' },
+    { exact: true, path: '/indexpage', component: '@/pages/indexpagepage' }
   ],
 });

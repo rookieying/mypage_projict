@@ -1,6 +1,6 @@
 
 import React from 'react'
-import styles from './indexpage.less'
+import styles from './otherindexpage.less'
 import PropTypes from 'prop-types'
 export default () => {
     // const propTypes = {
@@ -12,10 +12,8 @@ export default () => {
             <div id="indexpage" className={styles.indexpage}>
                 
                 <div className={styles.content}>
-                    <h1>UNISPACE</h1>
-                    <h3>企业数据管理平台</h3>
-                    <p>高质量数据是更快、更明智决策的关键所在。借助Unispace数据平台，您的团队可以通过数据中心、托管服务或者云端，随时随地发现、集成、丰富和使用他们所需的数据。</p>
-                    <div>了解更多 <span></span></div>
+                    <h3>我们的工作领域</h3>
+                    <p>我们的工作领域有...</p>
                 </div>
             </div> 
         </div>

@@ -2,6 +2,8 @@ import React from 'react'
 import styles from './nav.less'
 
 export default () => {
+
+
     return (
         <div className={styles.nav}>
             <div className={styles.clearfix}>
@@ -24,8 +26,6 @@ export default () => {
                 <span>联系我们</span>
                 <a href="#last"></a>
             </div>
-
-
         </div>
     )
 }

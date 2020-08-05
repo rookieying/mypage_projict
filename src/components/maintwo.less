@@ -1,10 +1,14 @@
 .main2 {
-    background-color: rgba(19, 27, 102, .5);
+    // background-color: rgba(19, 27, 102, .8);
     padding: 0px 74px;
+    color: white;
+    margin-left: 50px;
     .main2one {
+        padding-bottom: 50px;
         h1 {
-            font-size: 27px;
-            margin: 50px 0px;
+            font-size: 48px;
+            margin: 30px 0px 50px 0px;
+            color: black;
         }
         .btn {
             margin-bottom: 5px;
@@ -19,35 +23,58 @@
                     cursor: pointer;
                 }
             }
-            .btn1 {
-                margin-left: 90%;
-                background-image: url("../imgs/left.png");
-            }
-            .btn2 {
-                background-image: url("../imgs/right.png");
-                background-size: 100%;
-            }
+            // .btn1 {
+            //     margin-left: 90%;
+            //     background-image: url("../imgs/left.png");
+            // }
+            // .btn2 {
+            //     background-image: url("../imgs/right.png");
+            //     background-size: 100%;
+            // }
         }
         .lunbo2 {
             height: 200px;
-            border: 1px solid blueviolet;
+            color: black;
+            text-align: center;
+            div {
+                // border: 1px solid black;
+            }
             img {
+                // width: 32%;
+                // height: 100%;
+                margin-right: 20%;
+                // border: 1px solid black;
+            }
+            span {
+                display: inline-block;
                 width: 30%;
-                height: 100%;
-                margin-left: 3%;
+                height: 30%;
+                // border: 1px solid black;
+                margin-top: 10px;
+            }
+            .spancenter {
+                margin: 0px 5%;
+            }
+            .imglast {
+                margin-right: 0px;
+            }
+            .slider-frame {
+                border: none;
             }
         }
         
     }
     .main2two {
         h1 {
-            font-size: 27px;
-            margin-top: 90px;
+            font-size: 45px;
+            margin: 20px 0px;
+            font-size: 48px;
+            color: black;
         }
         p {
-            padding: 5px;
+            // padding: 5px;
             line-height: 25px;
-            margin: 50px 0px;
+            margin: 0px;
             font-size: 20px;
         }
         .flexouter {
@@ -56,27 +83,53 @@
             .flexinner {
                 display: flex;
                 flex: 1 1 0;
-                div {
+                .block {
                     flex: 1 1 0;
                     height: 100%;
                     margin-right: 5px;
                     box-sizing: border-box;
-                    padding: 20px;
                     background-color: pink;
                     margin: 10px 20px 20px 0px;
-                    background-image: url('../imgs/ceshi2.jpg');
-                    background-size: 200%;
+                    background-image: url('../imgs/youshi3.png');
+                    background-size: cover;
                     background-repeat: no-repeat;
+                    background-position: center;
                     height: 200px;
+                    transition: all 2s;
+                    .bgc {
+                        background-color: rgba(19, 27, 102, .8);
+                        margin: 0px;
+                        padding: 80px 20px 20px 20px;
+                        height: 100%;
+                        transition: all 1s;
+                        &:hover {
+                            background-color: rgba(19, 27, 102, .2);
+                        }
+                        
+                    }
                     h4 {
-                        font-size: 16px;
+                        font-size: 25px;
+                        color: white;
+                        // margin-top: 60px;
                     }
                     p {
                     margin: 0px;
-                    font-size: 12px;
+                    font-size: 15px;
                     }
                 }
             }
         }
     }
 }
+.carousel {
+    div {
+      button {
+        display: none;
+      }
+    }
+    ul {
+      button {
+        display: inline-block;
+      }
+    }
+  }
